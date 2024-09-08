@@ -1,0 +1,36 @@
+body {
+    margin: 20px;
+    font-family: myfont
+
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(DroidSansMono.ttf);
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 10px;
+
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    color: #2b2839;
+    background: #e3d5ca;
+    border: solid 6px #d5bdaf;
+    border-radius: 10px;
+
+}
+
+.title {
+    font-size: 22px;
+    text-decoration: 0px 2px 6px;
+}
+
